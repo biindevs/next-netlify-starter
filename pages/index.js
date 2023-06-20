@@ -20,9 +20,9 @@ export default function Home() {
           alt="placeholder"
         />
         <p className={styles.description}>
-          Get ready for a soup-erb experience! The best soup is coming to town
+          Get ready for a weed-erb experience! The best weed is coming to town
           and it's unlike anything you've tasted before. Crafted from the finest
-          ingredients and simmered to perfection, our soup will take your taste
+          ingredients and simmered to perfection, our weed will take your taste
           buds on an unforgettable journey. Stay tuned, because we're about to
           elevate your culinary experience to new heights. Opening soon!
         </p>
