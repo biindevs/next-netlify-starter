@@ -1,18 +1,31 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import styles from "../styles/Home.module.css"; // add this line to import your CSS module
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Odon Hub</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">ODONZKIE</p>
+      <main className={styles.main}>
+        <Header title="Welcome to my store!" />
+        <h1 className={styles.title}>Opening Soon</h1>
+        <img
+          className={styles.image}
+          src="https://drive.google.com/uc?export=view&id=1vJ4cCtrYg6qgn9w9HW_YvtZbiFjdDvUC"
+          alt="placeholder"
+        />
+        <p className={styles.description}>
+          Get ready for a soup-erb experience! The best soup is coming to town
+          and it's unlike anything you've tasted before. Crafted from the finest
+          ingredients and simmered to perfection, our soup will take your taste
+          buds on an unforgettable journey. Stay tuned, because we're about to
+          elevate your culinary experience to new heights. Opening soon!
+        </p>
       </main>
 
       <Footer />
